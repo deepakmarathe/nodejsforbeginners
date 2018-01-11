@@ -14,3 +14,5 @@
 
 [Fs Module](./fs_module_7)
 
+[Remove Directory](./remove_directory_8)
+
