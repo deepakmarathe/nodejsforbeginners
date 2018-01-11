@@ -7,3 +7,5 @@
 [Function Expressions](./function_expressions_3)
 
 [Modules and Require](./modules_require_4)
+
+[Module Patterns](./module_patterns_5)
