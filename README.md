@@ -11,3 +11,6 @@
 [Module Patterns](./module_patterns_5)
 
 [Event Module](./event_module_6)
+
+[Fs Module](./fs_module_7)
+
