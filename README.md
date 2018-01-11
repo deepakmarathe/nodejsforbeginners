@@ -9,3 +9,5 @@
 [Modules and Require](./modules_require_4)
 
 [Module Patterns](./module_patterns_5)
+
+[Event Module](./event_module_6)
