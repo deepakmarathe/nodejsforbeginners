@@ -1,6 +1,8 @@
 # Node.js for beginners.
 
-[Intellisense for Visual Studio](./setup_intellisense_vscode)
+[IDE Tour - Visual Studio](./vscode_tour/Intellisense.md)
+
+[Keyboard Shortcuts - Visual Studio](./vscode_tour/KeyboardShortCuts.md)
 
 [Setup and Installation](./installation_1/setup.md)
 
