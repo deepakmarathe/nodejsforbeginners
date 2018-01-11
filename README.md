@@ -19,3 +19,7 @@
 [Client and Server](./client_server_9)
 
 [Streams and Buffers](./streams_and_buffers_10)
+
+[Writable Streams](./writable_streams_11)
+
+[Pipes](./pipes_12)
