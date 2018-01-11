@@ -1,5 +1,7 @@
 # Node.js for beginners.
 
+[Intellisense for Visual Studio](./setup_intellisense_vscode)
+
 [Setup and Installation](./installation_1/setup.md)
 
 [Global Object](./global_object_2)
@@ -23,3 +25,10 @@
 [Writable Streams](./writable_streams_11)
 
 [Pipes](./pipes_12)
+
+[Serve Html](./serve_html_13)
+
+[Serve JSON](./serving_json_14)
+
+[Basic Routing](./basic_routing_15)
+
