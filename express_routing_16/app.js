@@ -1,12 +1,22 @@
-var express = require('express');
-var app = express();
+var express = require('express')
+var app = express()
 
 app.get('/', function(request, response){
-    response.send('this is the homepage');
-});
+    response.send('this is the homepage')
+})
 
 app.get('/contact', function(request, response){
-    response.send('this is the contact page');
-});
+    response.send('this is the contact page')
+})
 
-app.listen(3000);
+app.get('/profile/:id', function(request, response){
+    response.send('You requested to see a profile with the id of ' + request.params.id)
+})
+
+app.get('/profiles', function(request, response){
+    // console.log(response)
+
+})
+app.listen(3000)
+
+

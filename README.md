@@ -1,8 +1,10 @@
 # Node.js for beginners.
 
-[IDE Tour - Visual Studio](./vscode_tour/Intellisense.md)
+[IDE Tour - Visual Studio](./vscode_tour/settings.md)
 
 [Keyboard Shortcuts - Visual Studio](./vscode_tour/KeyboardShortCuts.md)
+
+[Keybindings.json Customise keyboard shortcuts behaviour ](./vscode_tour/Keybindings.json)
 
 [Setup and Installation](./installation_1/setup.md)
 
