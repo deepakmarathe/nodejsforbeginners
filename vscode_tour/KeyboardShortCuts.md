@@ -1,5 +1,7 @@
 # Visual Studio Code Useful Shortcuts
 
+Use [Keybindings.json](./Keybindings.json) for reference customisation of keyboard shortcuts behaviour 
+
 # Visual Navigation: 
     Visual Navigation: 
         Left Side Nav Bar : Cmd + B {

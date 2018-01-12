@@ -14,8 +14,7 @@ app.get('/profile/:id', function(request, response){
 })
 
 app.get('/profiles', function(request, response){
-    // console.log(response)
-
+    response.getMaxListeners()
 })
 app.listen(3000)
 

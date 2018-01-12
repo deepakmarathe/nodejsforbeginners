@@ -24,11 +24,11 @@ Enable Intellisense
 
 A file by the name [.eslintrc.js](../.eslintrc.js) should be availabe at the root of the project. 
 
-## Enable Reference Codelens
+## Enable Reference Codelens ([settings.json](./settings.json))
 Cmd + Shift + P, Search for 'Open User Settings '
     or
     (Cmd + ,)
 
     "javascript.referencesCodeLens.enabled": true,
 
-Find the [settings.json](./settings.json) file for reference. 
+## [Keyboard Shortcuts - Visual Studio](./vscode_tour/KeyboardShortCuts.md)
