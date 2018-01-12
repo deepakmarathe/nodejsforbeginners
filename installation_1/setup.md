@@ -29,4 +29,6 @@ Mac
 ## Installing packages
     npm install express --save --global 
     
-    
+## Package.json
+    npm init
+        

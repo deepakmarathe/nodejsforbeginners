@@ -4,11 +4,11 @@
     Visual Navigation: 
         Left Side Nav Bar : Cmd + B {
             Explorer : {
-                Open Editor : Cmd + K, E
-                    Open Workspace : Cmd + Shift + E {
+                Open Editor : Cmd + K, E {
                     Open : Cmd + Enter
                     Open in Side : Ctrl + Enter 
-                }
+                },
+                Open Workspace : Cmd + Shift + E
             },
             Find : {
                 Cmd + Shift + F
@@ -18,7 +18,12 @@
             }
         }, 
         Bottom Sheet, Panel : Cmd + J {
-            Terminal : Ctrl + `
+            Terminal Focus | Hide | Show : Ctrl + `
+            New Tab : Ctrl + Shift + `
+            Kill Tab : Ctrl + Shift + X
+            Cycle through : Ctrl + Tab | Ctrl + Shift + J
+                            Ctrl + Shift + Tab, | Ctrl + Shift + K
+            Expand | Shrink : Ctrl + Shift + B
         }, 
         Editor : {
             Group 1 : Cmd + 1 
@@ -60,12 +65,13 @@
         Code completion : Ctrl + Space
         Format : Alt + Shift + F
         Select Word : Cmd + D
+        Select Line : Cmd + I 
+        Move line : Alt + Up, Alt + Down
+        Join lines : Ctrl + J
         Rename Occurances : Fn + F2
         Collapse : Alt + Cmd + { 
         Expand : Alt + Cmd + }
-        Move line : Alt + Up, Alt + Down
-        Join lines : Ctrl + J
-
+    
     Execute :
         Shell Action : Alt + Cmd + O
 
@@ -117,4 +123,6 @@
     Right Click : Fn + Shift + F10
     
 
-    Resources : https://code.visualstudio.com/docs/getstarted/keybindings
+#### Resources : 
+    https://code.visualstudio.com/docs/getstarted/keybindings
+    https://github.com/Microsoft/vscode-tips-and-tricks
