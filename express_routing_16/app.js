@@ -2,11 +2,13 @@ var express = require('express')
 var app = express()
 
 app.get('/', function(request, response){
-    response.send('this is the homepage')
+    // response.send('this is the homepage')
+    response.sendfile(__dirname + '/index.html')
 })
 
 app.get('/contact', function(request, response){
-    response.send('this is the contact page')
+    // response.send('this is the contact page')
+    response.sendfile(__dirname + '/contact.html')
 })
 
 app.get('/profile/:id', function(request, response){
