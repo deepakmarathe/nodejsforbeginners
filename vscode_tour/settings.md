@@ -17,7 +17,9 @@ Enable Intellisense
 
     Place this file at the root of your project.
 
-## Linters : ESLint
+## Linters : 
+javascript : ESLint 
+
     npm install -g eslint
     intall the ESLint extension : Cmd + Shift + X
     eslint --init
@@ -32,3 +34,9 @@ Cmd + Shift + P, Search for 'Open User Settings '
     "javascript.referencesCodeLens.enabled": true,
 
 ## [Keyboard Shortcuts - Visual Studio](./vscode_tour/KeyboardShortCuts.md)
+
+## Install FiraCode and enable font-ligatures
+Open the User Settings (Cmd + ,) and look for the following properties, and set them to these values. 
+
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true

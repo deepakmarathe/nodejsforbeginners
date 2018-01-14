@@ -47,6 +47,11 @@ Use [Keybindings.json](./Keybindings.json) for reference customisation of keyboa
             Cycle Open Files : Ctrl + Tab
 
             Preview : Cmd + K, V
+
+            History : 
+                Next : Ctrl + - , 
+                Previous : Ctrl + Shift + -
+
         }
 
     Create : 
@@ -63,23 +68,40 @@ Use [Keybindings.json](./Keybindings.json) for reference customisation of keyboa
         Full screen : Cmd + Ctrl + F
         Zen Mode : Cmd + K, Z
     
-    Iterate : 
-        Code completion : Ctrl + Space
+    Refactor | Iterate : 
+        Code completion | Intellisense : Ctrl + Space
         Format : Alt + Shift + F
-        Select Word : Cmd + D
-        Select Line : Cmd + I 
         Move line : Alt + Up, Alt + Down
+        Delete line : Cmd + Shift + K
+        Duplicate : Alt + Shift + Up | Alt + Shift + Down 
         Join lines : Ctrl + J
         Rename Occurances : Fn + F2
-        Collapse : Alt + Cmd + { 
-        Expand : Alt + Cmd + }
-    
+        Extraction : Cmd + .
+        Collapse : Alt + Cmd + [ 
+        Expand : Alt + Cmd + ]
+        Fold all section : Cmd + K, Cmd + 0
+        Unfold all section : Cmd + K, Cmd + J
+        Navigate Errors|Warnings : Fn + F8
+        Beginning|End of file : Cmd + Up, Cmd + Down
+        Goto Definition : Fn + F12
+        Find All References : Fn + Shift + F12
+
+    Selection : 
+        Select Word : Cmd + D
+        Select Line : Cmd + I 
+        Shrink : Ctrl + Shift + Cmd + Left
+        Expand : Ctrl + Shift + Cmd + Right
+
     Execute :
         Shell Action : Alt + Cmd + O
 
     Open Context Menu : Fn + Shift + F10
 
-    Help : Cmd + Shift + P
+    Change Language Mode : Cmd + K, M
+
+    Change Theme : Cmd + K, Cmd + T
+    
+    Help | Command Palette : Cmd + Shift + P
 
     
     

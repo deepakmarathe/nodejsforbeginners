@@ -15,6 +15,25 @@ Mac
     or 
     node app
 
+## Package.json
+    npm init
+
+## Managing packages
+npm stands for Node Package Manager and is used to manage the packages and dependency of a nodejs application.
+
+Packages can be installed
+    
+    npm install express -save 
+
+Or uninstalled
+
+    npm uninstall express
+
+## Packages required 
+    express : npm install express -s (save)
+    nodemon : npm install nodemon -g (global)
+    npm install ejs -save
+
 ## Debug
     1. is the server running ?
     lsof -Pi | grep 3000
@@ -25,10 +44,3 @@ Mac
 
     3. to kill the server: 
     kill -9 49258
-        
-## Installing packages
-    npm install express --save --global 
-    
-## Package.json
-    npm init
-        
