@@ -20,8 +20,8 @@ app.get('/', function (request, response) {
 })
 
 app.get('/contact', function (request, response) {
-    // response.send('this is the contact page')
-    response.render('contact')
+    console.log(request.query)
+    response.render('contact', {qs: request.query})
 })
 
 // Demo of view engine

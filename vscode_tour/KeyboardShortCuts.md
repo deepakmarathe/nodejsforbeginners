@@ -64,6 +64,8 @@ Use [Keybindings.json](./Keybindings.json) for reference customisation of keyboa
                 Next : Ctrl + - , 
                 Previous : Ctrl + Shift + -
 
+            Move Tab To Group : Ctrl + Cmd + { Left | Right }
+
         }
 
     Create : 
