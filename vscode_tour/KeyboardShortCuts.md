@@ -12,19 +12,30 @@ Use [Keybindings.json](./Keybindings.json) for reference customisation of keyboa
                 },
                 Open Workspace : Cmd + Shift + E
             },
-            Find : {
-                Cmd + Shift + F
+            Find In Files: {
+                Search : Cmd + Shift + F
+                Replace : Cmd + Shift + H
+                Match : Alt + Cmd + {
+                    Case :  C
+                    Whole Word : W
+                    Regular Expression : R
+                },
+                Next Result : Fn + F4
+                Previous Result: Fn + Shift + F4
             },
             Extensions : {
                 Cmd + Shift + X
             }
         }, 
         Bottom Sheet, Panel : Cmd + J {
-            Terminal Focus | Hide | Show : Ctrl + `
-            New Tab : Ctrl + Shift + `
-            Kill Tab : Ctrl + Shift + X
-            Cycle through : Ctrl + Tab | Ctrl + Shift + J
+            Terminal Focus | Hide | Show : Ctrl + ` {
+                New Tab : Ctrl + Shift + `
+                Kill Tab : Ctrl + Shift + X
+                Cycle through : Ctrl + Tab | Ctrl + Shift + J
                             Ctrl + Shift + Tab, | Ctrl + Shift + K
+            },
+            Problems : Cmd + Shift + M, 
+            Output :  Cmd + Shift + U
             Expand | Shrink : Ctrl + Shift + B
         }, 
         Editor : {
@@ -46,9 +57,10 @@ Use [Keybindings.json](./Keybindings.json) for reference customisation of keyboa
             
             Cycle Open Files : Ctrl + Tab
 
-            Preview : Cmd + K, V
+            Preview : Cmd + K, V 
+                      Ctrl + Shift + M
 
-            History : 
+            Cursor Stack : 
                 Next : Ctrl + - , 
                 Previous : Ctrl + Shift + -
 
@@ -61,7 +73,7 @@ Use [Keybindings.json](./Keybindings.json) for reference customisation of keyboa
     Open and Close : 
         Open File : Cmd + O
         Open Directory : Cmd + O
-        Open Terminal At Basepath : Alt + Cmd + O
+        Open Terminal At Basepath : Ctrl + Alt + O
         Close tab : Cmd + W
 
     Get Into Flow : 
@@ -70,12 +82,20 @@ Use [Keybindings.json](./Keybindings.json) for reference customisation of keyboa
     
     Refactor | Iterate : 
         Code completion | Intellisense : Ctrl + Space
+        Parameter Hints : Cmd + Shift + Space
+        Show Hover : Cmd + K, Cmd + I
+        Peek Definition : Fn + Alt + F12 
+        Go To Definition : Fn + F12 
+        Open Definition To Side : Cmd + K, Fn + F12
+        Show References : Fn + Shift + F12 
+        Rename Occurances : Fn + F2
+
         Format : Alt + Shift + F
         Move line : Alt + Up, Alt + Down
         Delete line : Cmd + Shift + K
         Duplicate : Alt + Shift + Up | Alt + Shift + Down 
         Join lines : Ctrl + J
-        Rename Occurances : Fn + F2
+        
         Extraction : Cmd + .
         Collapse : Alt + Cmd + [ 
         Expand : Alt + Cmd + ]
@@ -83,17 +103,16 @@ Use [Keybindings.json](./Keybindings.json) for reference customisation of keyboa
         Unfold all section : Cmd + K, Cmd + J
         Navigate Errors|Warnings : Fn + F8
         Beginning|End of file : Cmd + Up, Cmd + Down
-        Goto Definition : Fn + F12
         Find All References : Fn + Shift + F12
 
     Selection : 
         Select Word : Cmd + D
         Select Line : Cmd + I 
-        Shrink : Ctrl + Shift + Cmd + Left
-        Expand : Ctrl + Shift + Cmd + Right
+        AST Shrink : Ctrl + Shift + Cmd + Left
+        AST Expand : Ctrl + Shift + Cmd + Right
 
     Execute :
-        Shell Action : Alt + Cmd + O
+        Shell Action : Ctrl + Alt + O
 
     Open Context Menu : Fn + Shift + F10
 
