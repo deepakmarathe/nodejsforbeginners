@@ -15,12 +15,12 @@ app.set('view engine', 'ejs')
 
 app.get('/', function(request, response){
     // response.send('this is the homepage')
-    response.sendfile(__dirname + '/index.html')
+    response.render('index')
 })
 
 app.get('/contact', function(request, response){
     // response.send('this is the contact page')
-    response.sendfile(__dirname + '/contact.html')
+    response.render('contact')
 })
 
 // Demo of view engine
