@@ -10,7 +10,12 @@
 // PUT
 
 var express = require('express')
+var bodyParser = require('body-parser')
+
 var app = express()
+
+var urlEncodedParser = bodyParser.urlencoded({extended:false})
+
 app.set('view engine', 'ejs')
 app.use('/assets', express.static('assets'))
 
@@ -20,8 +25,12 @@ app.get('/', function (request, response) {
 })
 
 app.get('/contact', function (request, response) {
-    console.log(request.query)
     response.render('contact', {qs: request.query})
+})
+
+app.post('/contact', urlEncodedParser, function (request, response) {
+    console.log(request.body)
+    response.render('contact-success', {data: request.body })
 })
 
 // Demo of view engine

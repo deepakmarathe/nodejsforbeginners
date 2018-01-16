@@ -33,7 +33,8 @@ Or uninstalled
     express : npm install express -s (save)
     nodemon : npm install nodemon -g (global)
     npm install ejs -save
-
+    npm install body-parser
+    
 ## Debug
     1. is the server running ?
     lsof -Pi | grep 3000
